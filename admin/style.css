@@ -1,0 +1,107 @@
+body {
+	padding: 10px;
+	background-image: url(Images/background.png);
+	background-position: center top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:0;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+#wrapper {
+	background:rgba(256,256,256,0.7);
+}
+#header {
+	overflow: hidden;
+}
+
+#nav {
+	background:rgba(0,24,81,0.9);
+	overflow: hidden;
+}
+
+#nav ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a {
+	display: block;
+	padding: 30px;
+	font-size: 20px;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	color: #001851;
+	background-color: #ffffff;
+}
+
+#nav ul li a:active {
+	color: #ed050d;
+}
+#main{
+	overflow: hidden;
+}
+
+.clan{
+	overflow: hidden;
+	margin: 15px;
+}
+.post{
+	overflow: hidden;
+	margin: 15px;
+	padding: 15px;
+}
+
+.slika_leva, .slika_desna{
+	width: 200px;
+	height: 250px;
+	background-color: #eeeeee;
+}
+
+.slika_leva{
+	float: left;
+	margin-right: 15px;
+}
+
+.slika_desna{
+	float: right;
+	margin-left: 15px;
+}
+#statistika{
+	padding: 15px;
+	overflow: hidden;
+}
+#ekipa{
+	border: 1px solid #001851;
+	display: inline-block;
+	width: 500px;
+	float: left;
+	margin: 5px;
+	padding: 20px;
+}
+#logo {
+	float: left;
+	width: 400px;
+	display: inline-block;
+}
+#korisnik {
+	float: right;
+	width: 400px;
+	display: inline-block;
+	text-align: right;
+	margin: 15px;
+}
